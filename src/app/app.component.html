@@ -1,0 +1,6 @@
+<FlexboxLayout alignItems="center" justifyContent="space-between">
+  <ng-container *ngIf="someBoolean">
+    <Label text="I come first"></Label>
+    <Label text="I come second" *ngIf="someOtherBoolean"></Label>
+  </ng-container>
+</FlexboxLayout>
